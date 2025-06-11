@@ -1,0 +1,14 @@
+/* *{
+    background-color: #080B2C;
+    color: #8A682E;
+} */
+
+.navbar.navbar.navbar-expand-lg{
+    background-color: #080B2C;
+}
+
+.navbar-nav > a{
+    color: #8A682E;
+}
+
+
