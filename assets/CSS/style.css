@@ -1,7 +1,7 @@
 /* *{
     background-color: #080B2C;
     color: #8A682E;
-} */
+}  */
 
 .navbar.navbar.navbar-expand-lg{
     background-color: #080B2C;
@@ -11,4 +11,15 @@
     color: #8A682E;
 }
 
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.container > div {
+    height: 667px;
+    width: 580px;
+    padding: 20px;
+    align-content: safe center;
+    color: #8A682E;
+}
