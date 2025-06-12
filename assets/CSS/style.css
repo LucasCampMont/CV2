@@ -37,13 +37,14 @@ header{
 }
 
 .sobre_mi {
-    height: 550px;
+    height: 750px;
     display: flex;
     align-items: center;
     background-image: url(../images/Foto\ Sobre\ mi.jpg);
     opacity: 95%;
     background-repeat: no-repeat;
     background-size: cover;
+    border: double 5px #8A682E;
 }
 
 .contenido_sobre_mi{
@@ -56,4 +57,27 @@ header{
     background-color: white;
     color: #080B2C;
 
+}
+
+.habilidades {
+    height: 400px;
+    background-color: #191b2d;
+    color: #8A682E;
+    padding-top: 40px;    
+}
+
+.contenido_habilidades{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px;
+}
+
+.card {
+    height: 140px;
+    width: 120px;
+}
+
+.card-text {
+    color: #8A682E;
 }
