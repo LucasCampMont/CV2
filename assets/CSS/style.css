@@ -11,9 +11,15 @@
     color: #8A682E;
 }
 
+header{
+ background-color: #191b2d;
+}
+
 .container {
+    height: 750px;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .container > div {
@@ -22,4 +28,32 @@
     padding: 20px;
     align-content: safe center;
     color: #8A682E;
+}
+
+.imagen > img {
+    border-radius: 50%;
+    border: dotted 10px #8A682E;
+    opacity: 80%;
+}
+
+.sobre_mi {
+    height: 550px;
+    display: flex;
+    align-items: center;
+    background-image: url(../images/Foto\ Sobre\ mi.jpg);
+    opacity: 95%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenido_sobre_mi{
+    height: 400px;
+    width: 550px;
+    padding: 45px;
+    border-radius: 30%;
+    transform: translate(100px, 0);
+    align-content: safe center;
+    background-color: white;
+    color: #080B2C;
+
 }

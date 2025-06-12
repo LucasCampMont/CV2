@@ -15,48 +15,60 @@
     <link rel="icon" type="image.png" href="./assets/favicon/favicon-32x32.png">
 
 </head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img class="logo" src="./assets/images/LOGO 30x36.jpg" alt="logo de curriculum"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
-                        <a class="nav-link" href="#sobre_mi">Sobre mi</a>
-                        <a class="nav-link" href="#">Habilidades</a>
-                        <a class="nav-link" href="#">Formación</a>
-                        <a class="nav-link" href="#">Proyectos</a>
-                        <a class="nav-link" href="#">Contactos</a>
-                    </div>
+<body>    
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img class="logo" src="./assets/images/LOGO 30x36.jpg" alt="logo de curriculum"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active text-white" aria-current="page" href="#inicio">Home</a>
+                    <a class="nav-link" href="#Sobre_mi">Sobre mi</a>
+                    <a class="nav-link" href="#">Habilidades</a>
+                    <a class="nav-link" href="#">Formación</a>
+                    <a class="nav-link" href="#">Proyectos</a>
+                    <a class="nav-link" href="#">Contactos</a>
                 </div>
             </div>
-        </nav>
+        </div>
+    </nav>
 
+    <!-- Home -->
+    <header id="inicio">
         <div class="container">
-            <div class="sobre_mi">
-                <h1>Sobre mi</h1> <br>
-                <p>Constructora Civil con 5 años de experiencia en la ejecución y supervisión de obras de edificación en altura 
-                    y vivienda en extensión. Especializada en la planificación, coordinación y control de proyectos constructivos, 
-                    garantizando el cumplimiento de plazos, presupuestos y estándares de calidad. Con sólidos conocimientos técnicos, 
-                    capacidad de liderazgo y enfoque en soluciones eficientes para optimizar los procesos constructivos. Comprometida 
-                    con la seguridad, la sostenibilidad y el trabajo en equipo.
+            <div class="imagen">
+                <img class="img-fluid" src="./assets/images/Foto Perfil.jpeg" alt="foto perfil Camila">
+            </div>
+            <div>
+                <h2>Hola! Soy</h2>
+                <h1><strong>Camila Pavez</strong></h1> <br>
+                <p> Estudiante de Desarrollo Full Stack JavaScript y Constructor Civil con 5 años de experiencia. 
+                    Poseo capacidad de análisis para interpretar planos y resolver problemas, además de habilidades de 
+                    liderazgo bien desarrolladas, comunicación efectiva y facilidad para el trabajo en equipo. Me considero 
+                    una persona proactiva, organizada y con capacidad de adaptación a distintos puestos de trabajo.
                 </p><br>
                 <div class="btn-group">
                     <a href="https://drive.google.com/file/d/1OU9013I-9B-woq8sDrQpfmJIQF7GLuAa/view" target="_blank" class="btn btn-dark active" aria-current="page">Descargar CV</a>
                     <a href="#" class="btn btn-light">Contacto</a>
                 </div>
             </div>
-            <div>
-                <img class="img-fluid" src="./assets/images/Foto Perfil.jpeg" alt="foto perfil Camila">
-            </div>
-        </div>
-        
+        </div>        
     </header>
 
+    <!-- Sobre mi -->
+    <section id="Sobre_mi" class="sobre_mi">
+        <div class="contenido_sobre_mi">
+            <h2>Sobre mi...</h2><br>
+            <p>Constructora Civil con 5 años de experiencia en la ejecución y supervisión de obras de edificación en altura 
+                y vivienda en extensión. Especializada en la planificación, coordinación y control de proyectos constructivos, 
+                garantizando el cumplimiento de plazos, presupuestos y estándares de calidad. Con sólidos conocimientos técnicos, 
+                capacidad de liderazgo y enfoque en soluciones eficientes para optimizar los procesos constructivos. Comprometida 
+                con la seguridad, la sostenibilidad y el trabajo en equipo.
+            </p>
+        </div>
+    </section>
     
 
     <!-- archivo bootstrap -->
