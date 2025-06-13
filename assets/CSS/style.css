@@ -79,7 +79,7 @@ header{
 }
 
 .formación {
-    height: 750px;
+    height: 650px;
     padding: 40px;
     color: #8A682E;
 }
@@ -96,11 +96,31 @@ header{
     width: 320px;
     padding: 20px;
     background-color: #191b2d;
-    border: dashed 10px #8A682E;
-    border-radius: 10px;
+    border: dashed 7px #8A682E;
+    border-radius: 25px;
 }
 
 .card-formación > img {
     height: 250px;
     width: 280px;    
+}
+
+.proyectos {
+    height: 900px;
+    padding: 40px;
+    background-color: #191b2d;
+    color: #8A682E;
+}
+
+.row {
+    padding: 40px;
+}
+
+.row > h4 {
+    color: #8A682E;
+}
+
+footer {
+    background-color: #080B2C;
+    color: #8A682E;
 }
